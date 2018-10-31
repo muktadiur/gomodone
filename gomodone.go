@@ -1,13 +1,13 @@
 package gomodone
 
 import (
-	"github.com/muktadiur/gomodtwo"
+	"github.com/muktadiur/gomodtwo/v2"
 )
 
 func Version() string {
-	return "gomodone v1.0.1"
+	return "gomodone v1.0.2"
 }
 
 func ModTwoVersion() string {
-	return gomodtwo.Version()
+	return gomodtwo.VersionName()
 }
