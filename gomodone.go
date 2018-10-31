@@ -1,5 +1,5 @@
 package gomodone
 
 func Version() string {
-	return "GoModOne V1.0"
+	return "gomodone v1.0.0"
 }
